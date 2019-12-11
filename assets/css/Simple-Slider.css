@@ -1,0 +1,51 @@
+.simple-slider .swiper-slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+}
+
+.mobile-slide-txt {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    font-weight: bold;
+}
+
+.mobile-slide-scrs {
+    width: auto;
+    height: auto
+}
+
+.swiper-container {cursor: grab;}
+
+.swiper-pagination {
+    background-color: rgba(0, 0, 0, 0.65);
+    bottom: 0!important;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    background-color: white;
+    transition: all .4s ease-in;
+}
+
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    transform: scale(1.5);
+}
+
+@media (max-width: 767px) {
+    .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+/*         display: none; */
+    }
+}
+
+@media (max-width: 767px) {
+    .simple-slider .swiper-slide {
+    }
+}
